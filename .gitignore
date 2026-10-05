@@ -1,0 +1,9 @@
+Documentation/Extra Files/
+ISO'S/
+VM's/
+
+*.iso
+*.vmdk
+*.vmwarevm
+*.log
+.DS_Store
