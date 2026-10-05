@@ -1,232 +1,212 @@
-# SOC Analyst Home Lab
-
+# Security Operations Monitoring Environment
+ 
 ## Overview
-
-This project documents the design, deployment, and operation of a SOC-focused home lab built to develop practical cybersecurity skills in:
-
+ 
+This project documents the design, deployment, and operation of a Security Operations Monitoring Environment built to develop practical experience in security monitoring, threat detection, endpoint visibility, and incident investigation.
+ 
+The environment leverages Wazuh, Sysmon, PowerShell logging, and Windows endpoint telemetry to simulate security operations workflows commonly performed by Security Operations Center (SOC) analysts.
+ 
+Key focus areas include:
+ 
 - Security Monitoring
-- Log Collection
 - SIEM Administration
+- Log Collection and Analysis
 - Threat Detection
 - Endpoint Telemetry
 - Incident Investigation
+- Threat Hunting
 - Detection Engineering
 - MITRE ATT&CK Mapping
-
-The lab was designed to simulate a small Security Operations Center (SOC) environment using free and open-source tools.
-
+ 
 ---
-
-## Project Goals
-
-- Gain hands-on SOC Analyst experience
-- Learn SIEM administration and log management
-- Deploy endpoint telemetry collection
-- Investigate security events
-- Create custom detection rules
+ 
+## Project Objectives
+ 
+- Develop hands-on experience with security monitoring platforms
+- Deploy and manage a SIEM environment
+- Collect and analyze Windows endpoint telemetry
+- Investigate security events and alerts
+- Design and validate detection use cases
 - Conduct threat hunting activities
-- Produce portfolio-quality incident reports
-- Build a project suitable for GitHub and cybersecurity interviews
-
+- Produce portfolio-quality investigation reports
+- Demonstrate practical cybersecurity skills applicable to Security Operations roles
+ 
 ---
-
-## Lab Architecture
-
+ 
+## Architecture
+ 
 ```text
 MacBook Pro 16" (M1 Pro)
 │
 ├── SOC-WAZUH01
-│   ├── Ubuntu Desktop 26.04 ARM64
-│   ├── Wazuh Manager
-│   ├── Wazuh Indexer
-│   └── Wazuh Dashboard
+│ ├── Ubuntu Desktop 24.04 ARM64
+│ ├── Wazuh Manager
+│ ├── Wazuh Indexer
+│ └── Wazuh Dashboard
 │
 └── SOC-ENDPOINT01
-    ├── Windows 11 ARM
-    ├── Wazuh Agent
-    ├── Sysmon ARM64
-    └── PowerShell Logging
+├── Windows 11 ARM
+├── Wazuh Agent
+├── Sysmon ARM64
+└── PowerShell Logging
 ```
-
+ 
 ---
-
-## Hardware
-
-Host System
-
+ 
+## Environment Specifications
+ 
+### Host System
+ 
 - Apple MacBook Pro 16"
 - Apple M1 Pro
 - 16 GB RAM
 - VMware Fusion
-
----
-
-## Technologies Used
-
-### SIEM
-
-- Wazuh
-
-### Operating Systems
-
-- Ubuntu Desktop 26.04 ARM64
-- Windows 11 ARM
-
-### Endpoint Monitoring
-
+ 
+### Security Platform
+ 
+- Wazuh SIEM
+- Wazuh Dashboard
+- Wazuh Indexer
 - Wazuh Agent
+ 
+### Endpoint Monitoring
+ 
 - Sysmon ARM64
-
-### Logging Sources
-
-- Windows Event Logs
-- Sysmon Operational Logs
-- PowerShell Logging
-
+- Windows Event Logging
+- PowerShell Script Block Logging
+ 
+### Operating Systems
+ 
+- Ubuntu Desktop 24.04 ARM64
+- Windows 11 ARM
+ 
 ---
-
-## Completed Phases
-
-### Phase A – Infrastructure Deployment
-
+ 
+## Current Environment Status
+ 
+### Infrastructure Deployment
+ 
 Completed
-
-- VMware Fusion Installation
+ 
+- VMware Fusion Deployment
 - Ubuntu Deployment
 - Windows Deployment
 - Network Configuration
 - System Updates
-- Snapshot Creation
-
-### Phase B – SIEM Deployment
-
+- Snapshot Management
+ 
+### SIEM Deployment
+ 
 Completed
-
+ 
 - Wazuh Installation
-- Wazuh Manager Deployment
-- Wazuh Indexer Deployment
+- Wazuh Manager Configuration
+- Wazuh Indexer Configuration
 - Wazuh Dashboard Deployment
-
-### Phase C – Endpoint Telemetry
-
+ 
+### Endpoint Telemetry
+ 
 Completed
-
-- Windows Agent Enrollment
-- Sysmon ARM64 Installation
+ 
+- Endpoint Enrollment
+- Sysmon ARM64 Deployment
+- PowerShell Logging Configuration
 - Sysmon Log Collection
-- PowerShell Logging
-- Verification of Log Ingestion
-
+- Endpoint Telemetry Validation
+- Log Ingestion Verification
+ 
 ---
-
-## Telemetry Verification
-
-Successfully verified the following:
-
-- Windows Endpoint Connected
-- Wazuh Agent Active
+ 
+## Telemetry Validation
+ 
+The following telemetry sources have been successfully validated:
+ 
+- Windows Security Logs
 - Sysmon Process Creation Events
 - Sysmon DNS Query Events
-- Windows Security Events
-- PowerShell Events
-
+- PowerShell Execution Events
+- Wazuh Agent Communications
+- Windows Endpoint Inventory Data
+ 
 ---
-
-## MITRE ATT&CK Focus
-
-This lab is being used to study and detect:
-
-| Technique | Description |
-|------------|------------|
+ 
+## MITRE ATT&CK Coverage
+ 
+Current investigations and detections focus on:
+ 
+| Technique ID | Technique |
+|--------------|------------|
 | T1033 | System Owner/User Discovery |
+| T1087 | Account Discovery |
 | T1016 | Network Discovery |
 | T1082 | System Information Discovery |
-| T1059.001 | PowerShell |
 | T1046 | Network Service Discovery |
-| T1087 | Account Discovery |
-
+| T1059.001 | PowerShell |
+ 
 ---
-
-## Investigation Projects
-
-### Investigation 001
-
-Windows Host Reconnaissance
-
-Status: In Progress
-
-Activities:
-
-- whoami
-- net user
-- ipconfig /all
-- nslookup
-- tasklist
-
+ 
+## Investigations
+ 
+### Investigation 001 – PowerShell and Sysmon Telemetry Validation
+ 
+Status: Complete
+ 
 Objective:
-
-Validate Sysmon telemetry collection and Wazuh detection visibility.
-
----
-
-## Screenshots
-
-### Infrastructure
-
-- Ubuntu Deployment
-- Windows Deployment
-- Wazuh Dashboard
-
-### Telemetry
-
-- Active Wazuh Agent
-- Sysmon Events
-- PowerShell Events
-
-### Investigations
-
-- Investigation Screenshots
-- Detection Validation
-- Alert Analysis
-
----
-
-## Future Enhancements
-
-- Custom Wazuh Detection Rules
-- PowerShell Detection Engineering
+ 
+Validate the collection, ingestion, and analysis of endpoint telemetry generated from Sysmon and PowerShell logging.
+ 
+Activities:
+ 
+- PowerShell Execution
+- Process Creation Monitoring
+- DNS Query Analysis
+- Threat Hunting Validation
+- Event Correlation in Wazuh
+ 
+### Investigation 002 – Encoded PowerShell Execution Analysis
+ 
+Status: Complete
+ 
+Objective:
+ 
+Analyze and validate detection visibility for encoded PowerShell execution activity using Sysmon and PowerShell telemetry.
+ 
+Activities:
+ 
+- EncodedCommand Execution
+- Process Creation Analysis
+- PowerShell Event Review
+- Threat Hunting Validation
 - MITRE ATT&CK Mapping
-- Threat Hunting Exercises
-- Incident Response Playbooks
-- Detection Tuning
-- Additional Windows Attack Simulations
-
+ 
 ---
-
-## Key Skills Demonstrated
-
+ 
+## Skills Demonstrated
+ 
 - SIEM Administration
 - Security Monitoring
-- Endpoint Visibility
-- Threat Detection
+- Threat Hunting
+- Detection Engineering
 - Log Analysis
 - Sysmon Configuration
-- Windows Security Logging
 - PowerShell Logging
+- Windows Security Monitoring
+- Endpoint Visibility
+- MITRE ATT&CK Mapping
 - Incident Investigation
-- Cybersecurity Documentation
-
+- Security Documentation
+ 
 ---
-
+ 
 ## Author
-
+ 
 Jabari Neal-Jackson
-
+ 
 Current Role:
 Network Administrator I
-
+ 
 Target Roles:
-
+ 
 - SOC Analyst
 - Cybersecurity Analyst
 - Security Operations Analyst
