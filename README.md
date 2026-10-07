@@ -134,7 +134,7 @@ The following telemetry sources have been successfully validated:
 
 ### Wazuh Dashboard
 
-![Wazuh Dashboard](Screenshots/Phase%20B/0Home.png
+Screenshots/Phase B/Wazuh Dashboard Home.png
 
 ### Active Endpoint Enrollment
 
