@@ -150,11 +150,11 @@ This investigation validated the monitoring pipeline and established a baseline 
 
 ### PowerShell Event Visibility
 
-![PowerShell Event](Screenshots/Investigations/Investigation-001/Wazuh-Investigation-001-Powershell-Event.png)
+![PowerShell Event](../../Screenshots/Investigations/Investigation-001/Wazuh-Investigation-001-Powershell-Event.png)
 
 ### Sysmon Event Visibility
 
-![Sysmon Event](Screenshots/Investigations/Investigation-001/Wazuh-Investigation-001-Sysmon-Event.png)
+![Sysmon Event](../../Screenshots/Investigations/Investigation-001/Wazuh-Investigation-001-Sysmon-Event.png)
 
 ---
 

@@ -111,15 +111,15 @@ This investigation demonstrated the ability to monitor potentially suspicious Po
 
 ### Encoded PowerShell Execution
 
-![Encoded PowerShell Execution](Screenshots/Investigations/Investigation-002/Investigation-002-Powershell-Command.png)
+![Encoded PowerShell Execution](../../Screenshots/Investigations/Investigation-002/Investigation-002-Powershell-Command.png)
 
 ### Threat Hunting Results
 
-![Threat Hunting Results](Screenshots/Investigations/Investigation-002/Investigation-002-Threat-Hunt.png)
+![Threat Hunting Results](../../Screenshots/Investigations/Investigation-002/Investigation-002-Threat-Hunt.png)
 
 ### Event Details
 
-![Event Details](Screenshots/Investigations/Investigation-002/Investigation-002-Event-details.png)
+![Event Details](../../Screenshots/Investigations/Investigation-002/Investigation-002-Event-details.png)
 
 ---
 
