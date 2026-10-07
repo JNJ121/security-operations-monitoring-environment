@@ -142,11 +142,11 @@ The following telemetry sources have been successfully validated:
 
 ### Sysmon Telemetry
 
-![Sysmon Telemetry](Screenshots/Investigation-001/Wazuh-Investigation-001-Sysmon-Event.png)
+![Sysmon Telemetry](Screenshots/Investigations/Wazuh-Investigation-001-Sysmon-Event.png)
 
 ### PowerShell Telemetry
 
-![PowerShell Events](Screenshots/Investigation-001/Wazuh-Investigation-001-Powershell-Event.png)
+![PowerShell Events](Screenshots/Investigations/Wazuh-Investigation-001-Powershell-Event.png)
 ---
 
  
