@@ -150,18 +150,12 @@ This investigation validated the monitoring pipeline and established a baseline 
 
 ### PowerShell Event Visibility
 
-!./../Screenshots/Investigations/PowerShell%20and%20Sysmon%20Telemetry%20Validation/Wazuh%20Investigation-001-Powershell-Event.png
+![PowerShell Event](Screenshots/Investigation-001/Wazuh-Investigation-001-Powershell-Event.png)
 
 ### Sysmon Event Visibility
 
-![Sysmon Event](s/Investigations/PowerShell%20and%20Sysmon%20Telemetry%20Validation/Wazuh%20Investigation-001-Sysmon-Event.png
-### Screenshots
+![Sysmon Event](Screenshots/Investigation-001/Wazuh-Investigation-001-Sysmon-Event.png)
 
-- Active Wazuh Agent
-- Sysmon Events in Wazuh
-- Threat Hunting Results
-- Process Creation Events
-- DNS Query Events
 
 ### Status
 

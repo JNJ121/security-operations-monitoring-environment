@@ -111,22 +111,15 @@ This investigation demonstrated the ability to monitor potentially suspicious Po
 
 ### Encoded PowerShell Execution
 
-../../Screenshots/Investigations/Investigation%20002/Investigation-002-Powershell-Command.png
-
-### Event Details
-
-../../Screenshots/Investigations/Investigation%20002/Investigation-002-Event-details.png
+![Encoded PowerShell Execution](Screenshots/Investigation-002/Investigation-002-Powershell-Command.png)
 
 ### Threat Hunting Results
 
-![Threat Hunt](../Investigations/Investigation%20002/Investigation-002-Threat-Hunt.png
-`
-Screenshots:
+![Threat Hunting Results](Screenshots/Investigation-002/Investigation-002-Threat-Hunt.png)
 
-- Encoded PowerShell Command Execution
-- PowerShell Events in Wazuh
-- Sysmon Process Creation Event
-- Threat Hunting Results
-- Event Detail Analysis
+### Event Details
+
+![Event Details](Screenshots/Investigation-002/Investigation-002-Event-details.png)
+
 
 Status: ✅ Complete

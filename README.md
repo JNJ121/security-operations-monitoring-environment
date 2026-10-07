@@ -134,19 +134,19 @@ The following telemetry sources have been successfully validated:
 
 ### Wazuh Dashboard
 
-![Wazuh Dashboard](Screenshots/Phase B/Wazuh-Dashboard-Home.png)
+![Wazuh Dashboard](Screenshots/Phase-B/Wazuh-Dashboard-Home.png)
 
 ### Active Endpoint Enrollment
 
-![Active Agent](Screenshots/PhaseT01%20appearing%20as%20Active%20in%20Wazuh.png
+![Active Agent](Screenshots/Phase-B/SOC-ENDPOINT01-appearing-as-Active-in-Wazuh.png)
 
 ### Sysmon Telemetry
 
-Screenshots/Phase%20C%20/Wazuh%20Sysmon-Events.png
+![Sysmon Telemetry](Screenshots/Investigation-001/Wazuh-Investigation-001-Sysmon-Event.png)
 
 ### PowerShell Telemetry
 
-![PowerShell Events](Screenshots/Phase%20C%20/Wazuh%ng
+![PowerShell Events](Screenshots/Investigation-001/Wazuh-Investigation-001-Powershell-Event.png)
 ---
 
  
