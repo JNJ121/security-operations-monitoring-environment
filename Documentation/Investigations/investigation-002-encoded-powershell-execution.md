@@ -109,6 +109,18 @@ This investigation demonstrated the ability to monitor potentially suspicious Po
 
 ## Evidence
 
+### Encoded PowerShell Execution
+
+../../Screenshots/Investigations/Investigation%20002/Investigation-002-Powershell-Command.png
+
+### Event Details
+
+../../Screenshots/Investigations/Investigation%20002/Investigation-002-Event-details.png
+
+### Threat Hunting Results
+
+![Threat Hunt](../Investigations/Investigation%20002/Investigation-002-Threat-Hunt.png
+`
 Screenshots:
 
 - Encoded PowerShell Command Execution

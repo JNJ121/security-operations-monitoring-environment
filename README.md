@@ -129,6 +129,26 @@ The following telemetry sources have been successfully validated:
 - Windows Endpoint Inventory Data
  
 ---
+
+## Environment Screenshots
+
+### Wazuh Dashboard
+
+![Wazuh Dashboard](Screenshots/Phase%20B/0Home.png
+
+### Active Endpoint Enrollment
+
+![Active Agent](Screenshots/PhaseT01%20appearing%20as%20Active%20in%20Wazuh.png
+
+### Sysmon Telemetry
+
+Screenshots/Phase%20C%20/Wazuh%20Sysmon-Events.png
+
+### PowerShell Telemetry
+
+![PowerShell Events](Screenshots/Phase%20C%20/Wazuh%ng
+---
+
  
 ## MITRE ATT&CK Coverage
  

@@ -69,7 +69,7 @@ tasklist
 
 **Source:**
 
-- Sysmon Event ID 1
+- Sysmon Event 
 
 **Description:**
 
@@ -89,7 +89,7 @@ Multiple process creation events were generated and successfully ingested into W
 
 **Source:**
 
-- Sysmon Event ID 22
+- Sysmon Event 
 
 **Description:**
 
@@ -148,6 +148,13 @@ This investigation validated the monitoring pipeline and established a baseline 
 
 ## Evidence
 
+### PowerShell Event Visibility
+
+!./../Screenshots/Investigations/PowerShell%20and%20Sysmon%20Telemetry%20Validation/Wazuh%20Investigation-001-Powershell-Event.png
+
+### Sysmon Event Visibility
+
+![Sysmon Event](s/Investigations/PowerShell%20and%20Sysmon%20Telemetry%20Validation/Wazuh%20Investigation-001-Sysmon-Event.png
 ### Screenshots
 
 - Active Wazuh Agent
