@@ -10,7 +10,7 @@ The environment consists of a centralized Wazuh deployment used to monitor and c
 MacBook Pro 16" (M1 Pro)
 │
 ├── SOC-WAZUH01
-│   ├── Ubuntu Desktop 24.04 ARM64
+│   ├── Ubuntu Desktop 26.04 ARM64
 │   ├── Wazuh Manager
 │   ├── Wazuh Indexer
 │   └── Wazuh Dashboard

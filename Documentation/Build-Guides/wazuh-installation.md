@@ -2,7 +2,7 @@
 
 ## Environment
 
-- Ubuntu Desktop 24.04 ARM64
+- Ubuntu Desktop 26.04 ARM64
 - VMware Fusion
 
 ## Download Installation Script
