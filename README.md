@@ -77,7 +77,7 @@ MacBook Pro 16" (M1 Pro)
  
 ### Operating Systems
  
-- Ubuntu Desktop 24.04 ARM64
+- Ubuntu Desktop 26.04 ARM64
 - Windows 11 ARM
  
 ---

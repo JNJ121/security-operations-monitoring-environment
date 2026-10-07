@@ -155,6 +155,7 @@ This investigation validated the monitoring pipeline and established a baseline 
 ### Sysmon Event Visibility
 
 ![Sysmon Event](Screenshots/Investigations/Investigation-001/Wazuh-Investigation-001-Sysmon-Event.png)
+
 ---
 
 ### Status
