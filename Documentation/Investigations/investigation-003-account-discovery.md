@@ -115,17 +115,17 @@ This investigation further validated the effectiveness of the monitoring environ
 
 PowerShell commands were executed on SOC-ENDPOINT01 to generate account discovery telemetry.
 
-### Account Discovery Event
-
-![Account Discovery Event](../../Screenshots/Investigations/Investigation-003/Investigation-003-Account-Discovery.png)
-
-Wazuh identified account discovery activity and mapped the event to MITRE ATT&CK technique T1087.
-
 ### Threat Hunting Results
 
 ![Threat Hunting Results](../../Screenshots/Investigations/Investigation-003/Investigation-003-Threat-Hunt.png)
 
 Threat Hunting was used to analyze correlated telemetry and validate event visibility.
+
+### Account Discovery Event
+
+![Account Discovery Event](../../Screenshots/Investigations/Investigation-003/Investigation-003-Event-Details.png)
+
+Wazuh identified account discovery activity and mapped the event to MITRE ATT&CK technique T1087.
 
 ### Status
 
