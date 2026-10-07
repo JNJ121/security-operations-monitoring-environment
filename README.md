@@ -1,4 +1,4 @@
-# Security Operations Monitoring Environment hi
+# Security Operations Monitoring Environment 
  
 ## Overview
  
