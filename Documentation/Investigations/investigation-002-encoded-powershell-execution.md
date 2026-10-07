@@ -120,6 +120,6 @@ This investigation demonstrated the ability to monitor potentially suspicious Po
 ### Event Details
 
 ![Event Details](Screenshots/Investigations/Investigation-002/Investigation-002-Event-details.png)
-
+---
 
 Status: ✅ Complete
