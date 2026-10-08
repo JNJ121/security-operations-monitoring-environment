@@ -199,6 +199,29 @@ Activities:
 - Threat Hunting Validation
 - MITRE ATT&CK Mapping
  
+### Investigation 003 – Account Discovery Activity
+
+Status: Complete
+
+Objective:
+
+Validate visibility into account discovery and user enumeration activity through Sysmon, PowerShell Logging, and Wazuh telemetry.
+
+Activities:
+
+- User Enumeration
+- Account Discovery
+- PowerShell Command Execution
+- Threat Hunting Analysis
+- Event Correlation in Wazuh
+- MITRE ATT&CK Mapping
+
+MITRE ATT&CK Techniques:
+
+- T1087 – Account Discovery
+- T1033 – System Owner/User Discovery
+- T1059.001 – PowerShell
+''
 ---
  
 ## Skills Demonstrated
