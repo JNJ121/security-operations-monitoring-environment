@@ -4,7 +4,7 @@
 
 Identify PowerShell executions utilizing the `EncodedCommand` parameter.
 
-Encoded PowerShell commands are frequently used by adversaries to obfuscate command execution and evade basic detection methods.
+Encoded PowerShell commands may be used to conceal command-line activity and are commonly monitored as potential indicators of suspicious execution behavior.
 
 ---
 

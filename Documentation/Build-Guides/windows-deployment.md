@@ -2,7 +2,7 @@
 
 ## Overview
 
-This guide documents the deployment and configuration of the Windows endpoint used for telemetry generation and security monitoring.
+This guide documents the configuration of the Windows endpoint used for telemetry generation and security monitoring.
 
 ---
 
@@ -58,7 +58,7 @@ ping 8.8.8.8
 Install:
 
 - Wazuh Agent
-- Sysmon ARM64a
+- Sysmon ARM64
 - PowerShell Logging
 
 Verify:

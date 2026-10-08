@@ -2,7 +2,7 @@
 
 ## Overview
 
-This guide documents the deployment and configuration of the Ubuntu-based Wazuh server used within the Security Operations Monitoring Environment.
+This guide documents the configuration of the Ubuntu-based Wazuh server used within the Security Operations Monitoring Environment.
 
 ---
 

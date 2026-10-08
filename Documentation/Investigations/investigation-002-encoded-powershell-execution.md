@@ -17,7 +17,7 @@ The objective was to validate PowerShell logging, Sysmon telemetry collection, a
 ### Monitoring Server
 
 - Hostname: SOC-WAZUH01
-- Operating System: Ubuntu Desktop 24.04 ARM64
+- Operating System: Ubuntu Desktop 26.04 ARM64
 
 ### Endpoint
 

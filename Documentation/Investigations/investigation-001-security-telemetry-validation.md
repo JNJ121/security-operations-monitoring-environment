@@ -4,7 +4,7 @@
 
 This investigation validates the collection, forwarding, and analysis of Windows endpoint telemetry within the Security Operations Monitoring Environment.
 
-The objective was to confirm that endpoint events generated on SOC-ENDPOINT01 were successfully captured by Sysmon, forwarded by the Wazuh Agent, and ingested into the Wazuh platform for monitoring and threat hunting activities.
+The objective was to confirm that endpoint events generated on SOC-ENDPOINT01 were successfully captured by Sysmon, forwarded by the Wazuh Agent, and displayed in the Wazuh platform for monitoring and threat hunting activities.
 
 ---
 
@@ -17,7 +17,7 @@ The objective was to confirm that endpoint events generated on SOC-ENDPOINT01 we
 ### Monitoring Server
 
 - Hostname: SOC-WAZUH01
-- Operating System: Ubuntu Desktop 24.04 ARM64
+- Operating System: Ubuntu Desktop 26.04 ARM64
 
 ### Endpoint
 
@@ -120,7 +120,6 @@ Events were identified through Wazuh Threat Hunting and endpoint telemetry analy
 |-------------|-----------|
 | T1033 | System Owner/User Discovery |
 | T1087 | Account Discovery |
-| T1016 | Network Discovery |
 | T1082 | System Information Discovery |
 
 ---
