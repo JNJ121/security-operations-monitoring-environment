@@ -221,7 +221,7 @@ MITRE ATT&CK Techniques:
 - T1087 – Account Discovery
 - T1033 – System Owner/User Discovery
 - T1059.001 – PowerShell
-''
+
 ---
  
 ## Skills Demonstrated
