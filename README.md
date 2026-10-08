@@ -203,9 +203,7 @@ Activities:
 
 Status: Complete
 
-Objective:
-
-Validate visibility into account discovery and user enumeration activity through Sysmon, PowerShell Logging, and Wazuh telemetry.
+Objective: Validate visibility into account discovery and user enumeration activity through Sysmon, PowerShell Logging, and Wazuh telemetry.
 
 Activities:
 
@@ -245,11 +243,3 @@ MITRE ATT&CK Techniques:
  
 Jabari Neal-Jackson
  
-Current Role:
-Network Administrator I
- 
-Target Roles:
- 
-- SOC Analyst
-- Cybersecurity Analyst
-- Security Operations Analyst
